@@ -1,0 +1,16 @@
+{
+    "description": "",
+    "labels": {
+        "background": 0,
+        "lesion": 1
+    },
+    "licence": "see challenge website",
+    "name": "AISD",
+    "numTraining": 393,
+    "reference": "see challenge website",
+    "release": "0.0",
+    "channel_names": {
+        "0": "CT"
+    },
+    "file_ending": ".nii.gz"
+}

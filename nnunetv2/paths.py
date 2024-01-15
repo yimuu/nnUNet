@@ -18,6 +18,10 @@ import os
 PLEASE READ paths.md FOR INFORMATION TO HOW TO SET THIS UP
 """
 
+os.environ['nnUNet_raw'] = '/home/wyh/Codes/nnUNetJAX/nnunetv2/data/nnUNet_raw'
+os.environ['nnUNet_preprocessed'] = '/home/wyh/Codes/nnUNetJAX/nnunetv2/data/nnUNet_preprocessed'
+os.environ['nnUNet_results'] = '/home/wyh/Codes/nnUNetJAX/nnunetv2/results'
+
 nnUNet_raw = os.environ.get('nnUNet_raw')
 nnUNet_preprocessed = os.environ.get('nnUNet_preprocessed')
 nnUNet_results = os.environ.get('nnUNet_results')
